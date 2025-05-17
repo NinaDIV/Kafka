@@ -1,10 +1,19 @@
- # 🐳 Kafka con Docker Compose
+ # 🚀 Kafka con Docker Compose - Demo "Hola Mundo"
 
-Este proyecto demuestra cómo levantar un entorno básico de **Apache Kafka** usando Docker Compose, y cómo realizar una prueba simple enviando y recibiendo un mensaje "Hola Mundo".
+![Kafka Logo](https://kafka.apache.org/images/logo.png)
 
----
+Este proyecto demuestra cómo configurar un entorno básico de **Apache Kafka** usando Docker Compose, incluyendo una prueba práctica de envío/recepción de mensajes.
 
-## 📦 Crear la imagen
+## 📋 Prerrequisitos
+- Docker 20.10+
+- Docker Compose 2.0+
+- 2GB RAM disponibles
 
-Asegúrate de tener Docker y Docker Compose instalados. Luego, ejecuta:
+## 🐳 Configuración del Entorno
 
+```bash
+# Levantar los servicios (Zookeeper + Kafka)
+docker-compose up -d
+
+# Verificar estado
+docker-compose ps
